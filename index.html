@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+            .sr-only {
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip: rect(0, 0, 0, 0);
+                border: 0;
+            }
+        </style>
+        <script src="https://kit.fontawesome.com/1ba927dfc7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="head-fixed">
+            <div class="container">
+                <button type="button" class="headB">
+                    <span class="fas fa-bars" title="MENU"></span>
+                </button>
+                <nav class="headA">
+                    <ul>
+                        <li><a href="#top">Top</a></li>
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="conA" id="top">
+            <h1>Masayuki Morita's Portfolio</h1>
+        </section>
+
+        <section class="conB" id="profile">
+            <h2> Profile</h2>
+            <div class="container">
+                <div class="photo"></div>
+                <nav class="text">
+                    <h3>自己紹介</h3>
+                    <table>
+                        <tr>
+                            <th>氏名</th>
+                            <td>森田 将幸（もりた まさゆき）</td>
+                        </tr>
+                        <tr>
+                            <th>生年月日</th>
+                            <td>1997年 4月 4日</td>
+                        </tr>
+                        <tr>
+                            <th>性別</th>
+                            <td>男</td>
+                        </tr>
+                    </table>
+                </nav>
+            </div>
+        </section>
+
+        <section class="conC">
+            <div class="container">
+                <h3>使用可能な言語</h3>
+                <div class="photo">
+                    <div class="image" id="html"></div>
+                    <div class="image" id="css"></div>
+                    <div class="image" id="javascript"></div>
+                    <div class="image" id="php"></div>
+                    <div class="image" id="csharp"></div>
+                    <div class="image" id="unity"></div>
+                    <div class="image" id="mysql"></div>
+                    <div class="image" id="java"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="conD" id="works">
+            <h2> Works</h2>
+            <div class="container">
+                <div class="works">
+                    <div class="photo" id="portfolio"></div>
+                    <div class="text">
+                        <h3>ポートフォリオサイト</h3>
+                        <div class="text-small">
+                            <h4>使用言語</h4>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <nav class="links">
+                                <a href="./index.html" class="link"> Link</a>
+                                <a href="https://github.com/MASAYUKI-MORITA/portfolio" class="gitlink"> GitHub</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="works">
+                    <div class="photo" id="tendays"></div>
+                    <div class="text">
+                        <h3>10日間タワーディフェンス</h3>
+                        <div class="text-small">
+                            <h4>使用言語</h4>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>PHP</li>
+                            </ul>
+                            <nav class="links">
+                                <a href="https://ten-days-tower-defense.herokuapp.com/" class="link"> Link</a>
+                                <a href="https://github.com/MASAYUKI-MORITA/TenDaysTowerDefense" class="gitlink"> GitHub</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <a href="#top"><span class="fas fa-chevron-up icon" href="#top"></span></a>
+            <h2> Contact</h2>
+            <div class="container">
+                <nav class="footA">
+                    <ul>
+                        <li><a href="tel:080-4041-6609"><span class="fas fa-phone-alt" title="Phone"></span></a></li>
+                        <li><a href="mailto:hbpencil@i.softbank.jp"><span class="fas fa-envelope" title="E-mail"></span></a></li>
+                        <li><a href="https://twitter.com/mmmmomomorita"><span class="fab fa-twitter" title="Twitter"></span></a></li>
+                        <li><a href="https://github.com/MASAYUKI-MORITA"><span class="fab fa-github" title="GitHub"></span></a></li>
+                    </ul>
+                </nav>
+                <div class="footB">
+                    <p>Thank you for coming!</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./script/script.js"></script>
+    </body>
+</html>
